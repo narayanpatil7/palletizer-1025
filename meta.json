@@ -1,0 +1,33 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "narayanpatil:palletizer-1025",
+
+  "models": [
+    {
+      "api": "rdk:service:generic",
+      "model": "narayanpatil:palletizer-1025:palletizer",
+      "markdown_link": "narayanpatil_palletizer-1025_palletizer.md"
+    }
+  ],
+
+  "visibility": "public",
+  "url": ".",
+  "description": "Palletizer module for controlling a robotic arm to pick, place, and pack objects.",
+
+  "applications": null,
+  "markdown_link": "narayanpatil_palletizer-1025_palletizer.md",
+  "entrypoint": "dist/main",
+
+  "first_run": "",
+
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64"
+    ]
+  }
+}
