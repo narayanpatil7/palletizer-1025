@@ -11,7 +11,7 @@
   ],
 
   "visibility": "public",
-  "url": ".",
+  "url": "https://github.com/narayanpatil7/palletizer-1025",
   "description": "Palletizer module for controlling a robotic arm to pick, place, and pack objects.",
 
   "applications": null,
